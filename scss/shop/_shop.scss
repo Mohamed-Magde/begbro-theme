@@ -1,0 +1,57 @@
+.shop {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    text-align: center;
+    &-item {
+      img {
+        width: 100%;
+      }
+      .desc {
+        font-size: 0.8rem;
+      }
+
+      &-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.1em 0.3em;
+
+        .rate {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            margin-right: 0.2em;
+            margin-bottom: 0.3em;
+          }
+        }
+      }
+
+      figcaption {
+        img {
+          width: 1em;
+        }
+      }
+    }
+  }
+  .shop-add {
+    display: flex;
+    background-color: $primary;
+    border: none;
+    padding: 0.3em 1em;
+    color: #fff;
+    border-radius: 10px;
+
+    img {
+      margin-left: 0.5em;
+    }
+  }
+}

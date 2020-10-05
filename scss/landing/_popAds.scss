@@ -1,0 +1,68 @@
+.popAds {
+  margin-top: 4em;
+
+  .container {
+    text-align: center;
+    width: 80%;
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+
+    img {
+      width: 50%;
+    }
+
+    &-block {
+      display: flex;
+      height: 100%;
+      border: 1px solid $dark;
+      border-radius: 19px;
+
+      figcaption {
+        padding: 0 .5em;
+
+        img {
+          width: 1.2em;
+
+        }
+
+        span {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: .8rem;
+        }
+      }
+
+      &-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+        .price {
+          display: flex;
+
+          p {
+            font-size: 1.1rem;
+            font-weight: 100;
+          }
+        }
+
+        .rate {
+          display: flex;
+
+          p {
+            font-size: 1.1rem;
+            font-weight: 100;
+          }
+        }
+      }
+    }
+  }
+}

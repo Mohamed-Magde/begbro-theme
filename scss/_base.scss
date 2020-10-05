@@ -1,0 +1,44 @@
+$primary : #0F3FFF;
+$dark : #001B5B;
+$text: #02163B;
+$grey : #F5F5F5;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: sans-serif;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+  color: $text;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+// typography
+.heading-2 {
+  color: $primary;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
